@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<h2>Login</h2>
+<link href="~/Content/StyleSheet.css" rel="stylesheet" type="text/css" />
+
+
+<form method="post" action="Verify">
+    <div class="box">
+        <h1>Contact Form</h1>
+        <label>
+            <span>Full name *</span>
+            <input type="text" name="Name" class="form-control" id="usrname" placeholder="Enter email" />
+        </label>
+        <label>
+            <span>Email *</span>
+            <input type="password" name="Password" class="form-control" id="psw" placeholder="Enter password">
+        </label>
+        <input type="submit" class="button" value="Submit Form" />
+
+        <button>Buy</button>
+    </div>
+</form>
+
+
